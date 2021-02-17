@@ -6,8 +6,6 @@ frameRate(10);
 }
 public void draw()
 {
-fill(0);
-
 fractal(500,500,800);
 }
 public void fractal(int x, int y, int len) 
