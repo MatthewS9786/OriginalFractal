@@ -11,7 +11,7 @@ if(len<10){
 }
 else{
   fill((float)(Math.random()*256),(float)(Math.random()*256),(float)(Math.random()*256));
-  circle(x/2,y/2,len/2);
+  ellipse(x/2,y/2,len/2,len/2);
   fractal(x-len/4,y,len/2);
   fractal(x+len/4,y,len/2);
  }
